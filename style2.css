@@ -1,0 +1,78 @@
+.Contain{ 
+    width: 1000px;
+    margin: 0 auto; 
+}
+.Header{
+    color: rgb(224, 178, 194); 
+    font-size: 20px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 1000px;
+    height: 45px ; 
+    border-width: 10px; 
+    border-style: none; 
+}
+.Nav{
+    height: 50px; 
+    width: auto; 
+    background: rgb(224, 178, 194); 
+}
+.Menu ul{
+    list-style: none;
+}
+.Menu ul li{
+    float: left; 
+    line-height: 50px; 
+    padding: 0 25px; 
+}
+.Menu ul li a{
+    color: white;
+    font-size: 25px; 
+    text-decoration: none;
+}
+.Search{
+    float: right; 
+    line-height: 50px;
+    margin: right 25px;
+    width: 15%;
+}
+.NewList .ListHoliday{
+    width: 45.4%; 
+    padding: 2%;
+    float:left;
+    border: 3px solid #ccc;
+}
+.TetHoliday{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.IndependenceDay{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.DayOfUnification{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.NewList .ListFood{
+    width: 45%; 
+    padding: 2%;
+    float:left;
+    border: 3px solid #ccc;
+}
+.NewList .ListTravel{
+    width: 45%; 
+    padding: 2%;
+    float:left;
+    border: 3px solid #ccc;
+}
+.Footer{
+    color: white;
+    height: 150px; 
+    width: auto; 
+    background:rgb(224, 178, 194);
+    text-align: center; 
+    top: 50%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.Footer ul{
+    list-style: none;
+}
