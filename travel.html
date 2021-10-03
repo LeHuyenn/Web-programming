@@ -1,48 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="holiday_food_travel_style.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Le From VietNam</title>
+  <title>Travel</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script>
+    $(function(){
+      $("#footer-navigator").load("footer.html");
+    });
+
+    $(function(){
+      $("#nav-bar").load("nav_bar.html");
+    });
+    </script>
 </head>
-<body>
-    <div class="Container">
-        <div class = "Header">
+<body style="min-width: 1500px;">
+    <div class="container">
+        <div class = "header">
             <h1> LE FROM VIETNAM___TRAVEL___ </h1>
         </div>
-        <div class ="Nav">
-            <div class ="Menu">
-                <ul>
-                    <li><a href="index.html">All</a></li>
-                    <li><a href="holiday.html">Holiday</a></li>
-                    <li><a href ="food.html">Food</a></li>
-                    <li><a href ="travel.html">Travel</a></li>
-                    
-                </ul>
-            </div>
-            <div class ="Search">
-                <input type="Search" placeholder ="Search...">
-                <i class="fa fa-search fa-1g" style="color: white " ></i>
-            </div>
+        <div id ="nav-bar">
         </div>
     </div>
     <br/>
-    <div class="Contain">
-        <div class="Travel">
-            <div class ="NewList">
-                <div class="ListTravel">
-                    <img width="450" height="350"  src="img/pic7.jpg"/> 
+    <div class="contain">
+        <div class="travel">
+            <div class ="new-list">
+                <div class="list-travel">
+                    <img width="450" height="350"  src="img-all/pic7.jpg"/> 
                 </div>
-                <div class="ListTravel">
-                    <img width="450" height ="350" src="img/pic8.jpg"/> 
+                <div class="list-travel">
+                    <img width="450" height ="350" src="img-all/pic8.jpg"/> 
                 </div>
             </div>
             <div style="clear: both;"></div>
+            <h1 style="text-align: center; " > ПУТЕШЕСТВИЕ ВО ВЬЕТНАМЕ </h1>
+            <div style="font-size: 24px;">
+                Вьетнам - это, пожалуй, одна из самых позитивных стран мира. 
+                Самобытная культура, особая кухня, традиции и обычаи, непростая история и бьющая ключом жизненная энергия делают Вьетнам одним из самых популярных туристических направлений мира.
+            </div>
         </div>
     
-        <div class="HaNoi">
+        <div class="hanoi">
             <h2 style="font-size: 30px"> Ханой </h2>
             <div style="font-size: 24px;">
                 Ханой – столица Вьетнама. Он расположенный на берегу Красной реки - одна из самых древних столиц мира, где путешественники могут найти хорошо сохранившиеся колониальные здания, древние пагоды и уникальные музеи в центре города. 
@@ -54,10 +56,10 @@
                 <li style="font-size: 24px">Дата основания: 1010 г.</li>
                 <li style="font-size: 24px">Местное время: на 4 часа позже московского </li>
             </ul>
-            <img SRC="img4/pic1.jpg"/>
+            <img SRC="img-travel/pic1.jpg"/>
         </div>
     
-        <div class="HoChiMinh">
+        <div class="ho-chi-minh">
             <h2 style="font-size: 30px">ХоШиМин</h2>
             <div style="font-size: 24px;">
                 Хошимин, больше известный как Сайгон, – это город на юге Вьетнама. Он сыграл важнейшую роль во Вьетнамской войне. 
@@ -72,10 +74,10 @@
                 <li style="font-size: 24px">Высота над уровнем моря: 19 м</li>
                 <li style="font-size: 24px">Население: 8,993 миллиона (4 янв. 2019 г.)</li>
             </ul>
-            <img width="1000px" src="img4/pic2.jpg"/>
+            <img width="1000px" src="img-travel/pic2.jpg"/>
         </div>
     
-        <div class="HoiAn">
+        <div class="hoian">
             <h2 style="font-size: 30px"> Хойан </h2>
             <div  style="font-size: 24px;" >
                 Хойан – это прибрежный город в центральной части Вьетнама. Изрезанная каналами историческая часть города очень хорошо сохранилась и отражает разнообразие его архитектуры, на которую повлияли различные эпохи и народы. 
@@ -86,10 +88,10 @@
                 <li style="font-size: 24px">Население: 152 160 (2018 г.)</li>
                 <li style="font-size: 24px">Дата включения в Список всемирного культурного наследия ЮНЕСКО: 1999 г.</li>
             </ul>
-            <img width="1000px" src="img4/pic3.jpg"/>
+            <img width="1000px" src="img-travel/pic3.jpg"/>
         </div>
     
-        <div class="DaNang">
+        <div class="da-nang">
             <h2 style="font-size: 30px"> Да Нанг </h2>
             <div  style="font-size: 24px;">
                 Дананг – прибрежный город в центральной части Вьетнама, бывший французский порт. Он славится своими песчаными пляжами и служит отправной точкой для посещения холмов Бана, расположенных к западу от города во внутренней части страны.
@@ -100,17 +102,12 @@
                 <li style="font-size: 24px"> Население: 1,134 миллиона (2019 г.)</li>
                 <li style="font-size: 24px"> Почтовый индекс: 50000</li>
             </ul>
-            <img width="1000px" height="500px" src="img4/pic4.jpg">
+            <img width="1000px" height="500px" src="img-travel/pic4.jpg">
         </div>
     </div>
 
-    <div class="Footer">
-        <h1> LE FROM VIETNAM </h1>
-        <span>
-            <a href="https://www.facebook.com"><i class="fa fa-facebook-square fa-2x" style="color: #3b5998 "></i></a>
-            <a href="https://www.instagram.com"><i class="fa fa-instagram fa-2x" style="color: #3f729b"></i></a>
-            <a href="https://web.whatsapp.com"><i class="fa fa-user-circle-o fa-2x" style="color: green;"></i></a>
-        </span>
+    <div id="footer-navigator">
+
     </div>
 
 </body>
